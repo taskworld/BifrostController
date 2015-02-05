@@ -23,18 +23,17 @@
             </objects>
             <point key="canvasLocation" x="-226" y="592"/>
         </scene>
-        <!--Item-->
+        <!--Item 2-->
         <scene sceneID="E2L-5t-8eo">
             <objects>
-                <navigationController id="djM-rm-gsL" customClass="StoryboardBridgeController" customModule="StoryboardBridgeController" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="5jF-1t-AyE"/>
+                <navigationController id="djM-rm-gsL" customClass="StoryboardBridgeController" customModule="BifrostController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 2" id="5jF-1t-AyE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ePR-g3-FQW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="Second"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="storyboardID" value="SecondViewController"/>
                     </userDefinedRuntimeAttributes>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nzj-Yc-EEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -44,7 +43,7 @@
         <!--Item 1-->
         <scene sceneID="exl-Ul-fWW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j9r-P0-5mN" customClass="StoryboardBridgeController" customModule="StoryboardBridgeController" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j9r-P0-5mN" customClass="StoryboardBridgeController" customModule="BifrostController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item 1" id="amq-vF-4TQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="034-yG-Lve">

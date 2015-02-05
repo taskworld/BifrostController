@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5E295971A837A8500E05FE2 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E295961A837A8500E05FE2 /* First.storyboard */; };
+		F56F8F0F1A838ED900E02B3E /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56F8F0E1A838ED900E02B3E /* First.storyboard */; };
+		F56F8F1A1A838FD400E02B3E /* BifrostController.h in Headers */ = {isa = PBXBuildFile; fileRef = F56F8F191A838FD400E02B3E /* BifrostController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F56F8F201A838FD500E02B3E /* BifrostController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56F8F151A838FD400E02B3E /* BifrostController.framework */; };
+		F56F8F291A838FD500E02B3E /* BifrostControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F8F281A838FD500E02B3E /* BifrostControllerTests.swift */; };
+		F56F8F2C1A838FD500E02B3E /* BifrostController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56F8F151A838FD400E02B3E /* BifrostController.framework */; };
+		F56F8F2E1A838FD500E02B3E /* BifrostController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F56F8F151A838FD400E02B3E /* BifrostController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F56F8F361A83902600E02B3E /* StoryboardBridgeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F8F351A83902600E02B3E /* StoryboardBridgeController.swift */; };
 		F5E295991A837B3E00E05FE2 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E295981A837B3E00E05FE2 /* Second.storyboard */; };
 		F5EEB1281A8265C200B33684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEB1271A8265C200B33684 /* AppDelegate.swift */; };
 		F5EEB12A1A8265C200B33684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEB1291A8265C200B33684 /* ViewController.swift */; };
@@ -15,10 +21,30 @@
 		F5EEB12F1A8265C200B33684 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EEB12E1A8265C200B33684 /* Images.xcassets */; };
 		F5EEB1321A8265C200B33684 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5EEB1301A8265C200B33684 /* LaunchScreen.xib */; };
 		F5EEB13E1A8265C200B33684 /* StoryboardBridgeControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEB13D1A8265C200B33684 /* StoryboardBridgeControllerTests.swift */; };
-		F5EEB1481A82667800B33684 /* StoryboardBridgeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEB1471A82667800B33684 /* StoryboardBridgeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F56F8F211A838FD500E02B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5EEB11A1A8265C200B33684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56F8F141A838FD400E02B3E;
+			remoteInfo = BifrostController;
+		};
+		F56F8F231A838FD500E02B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5EEB11A1A8265C200B33684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5EEB1211A8265C200B33684;
+			remoteInfo = StoryboardBridgeController;
+		};
+		F56F8F2A1A838FD500E02B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5EEB11A1A8265C200B33684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56F8F141A838FD400E02B3E;
+			remoteInfo = BifrostController;
+		};
 		F5EEB1381A8265C200B33684 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F5EEB11A1A8265C200B33684 /* Project object */;
@@ -28,8 +54,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F56F8F2D1A838FD500E02B3E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F56F8F2E1A838FD500E02B3E /* BifrostController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		F5E295961A837A8500E05FE2 /* First.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = First.storyboard; path = ../../First.storyboard; sourceTree = "<group>"; };
+		F56F8F0E1A838ED900E02B3E /* First.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		F56F8F151A838FD400E02B3E /* BifrostController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BifrostController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56F8F181A838FD400E02B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56F8F191A838FD400E02B3E /* BifrostController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BifrostController.h; sourceTree = "<group>"; };
+		F56F8F1F1A838FD500E02B3E /* BifrostControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BifrostControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56F8F271A838FD500E02B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56F8F281A838FD500E02B3E /* BifrostControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BifrostControllerTests.swift; sourceTree = "<group>"; };
+		F56F8F351A83902600E02B3E /* StoryboardBridgeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardBridgeController.swift; sourceTree = "<group>"; };
 		F5E295981A837B3E00E05FE2 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		F5EEB1221A8265C200B33684 /* StoryboardBridgeController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardBridgeController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EEB1261A8265C200B33684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,14 +88,29 @@
 		F5EEB1371A8265C200B33684 /* StoryboardBridgeControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardBridgeControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EEB13C1A8265C200B33684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5EEB13D1A8265C200B33684 /* StoryboardBridgeControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBridgeControllerTests.swift; sourceTree = "<group>"; };
-		F5EEB1471A82667800B33684 /* StoryboardBridgeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardBridgeController.swift; path = StoryboardBridgeController/StoryboardBridgeController/StoryboardBridgeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F56F8F111A838FD400E02B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56F8F1C1A838FD500E02B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56F8F201A838FD500E02B3E /* BifrostController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5EEB11F1A8265C200B33684 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56F8F2C1A838FD500E02B3E /* BifrostController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +124,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F56F8F161A838FD400E02B3E /* BifrostController */ = {
+			isa = PBXGroup;
+			children = (
+				F56F8F351A83902600E02B3E /* StoryboardBridgeController.swift */,
+				F56F8F191A838FD400E02B3E /* BifrostController.h */,
+				F56F8F171A838FD400E02B3E /* Supporting Files */,
+			);
+			path = BifrostController;
+			sourceTree = "<group>";
+		};
+		F56F8F171A838FD400E02B3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56F8F181A838FD400E02B3E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F56F8F251A838FD500E02B3E /* BifrostControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F56F8F281A838FD500E02B3E /* BifrostControllerTests.swift */,
+				F56F8F261A838FD500E02B3E /* Supporting Files */,
+			);
+			path = BifrostControllerTests;
+			sourceTree = "<group>";
+		};
+		F56F8F261A838FD500E02B3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56F8F271A838FD500E02B3E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F5E295951A837A0D00E05FE2 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				F5EEB12B1A8265C200B33684 /* Main.storyboard */,
-				F5E295961A837A8500E05FE2 /* First.storyboard */,
 				F5E295981A837B3E00E05FE2 /* Second.storyboard */,
+				F56F8F0E1A838ED900E02B3E /* First.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -77,6 +174,8 @@
 			children = (
 				F5EEB1241A8265C200B33684 /* StoryboardBridgeController */,
 				F5EEB13A1A8265C200B33684 /* StoryboardBridgeControllerTests */,
+				F56F8F161A838FD400E02B3E /* BifrostController */,
+				F56F8F251A838FD500E02B3E /* BifrostControllerTests */,
 				F5EEB1231A8265C200B33684 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +185,8 @@
 			children = (
 				F5EEB1221A8265C200B33684 /* StoryboardBridgeController.app */,
 				F5EEB1371A8265C200B33684 /* StoryboardBridgeControllerTests.xctest */,
+				F56F8F151A838FD400E02B3E /* BifrostController.framework */,
+				F56F8F1F1A838FD500E02B3E /* BifrostControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				F5E295951A837A0D00E05FE2 /* Storyboards */,
-				F5EEB1471A82667800B33684 /* StoryboardBridgeController.swift */,
 				F5EEB1271A8265C200B33684 /* AppDelegate.swift */,
 				F5EEB1291A8265C200B33684 /* ViewController.swift */,
 				F5EEB12E1A8265C200B33684 /* Images.xcassets */,
@@ -131,7 +231,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F56F8F121A838FD400E02B3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56F8F1A1A838FD400E02B3E /* BifrostController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		F56F8F141A838FD400E02B3E /* BifrostController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56F8F2F1A838FD500E02B3E /* Build configuration list for PBXNativeTarget "BifrostController" */;
+			buildPhases = (
+				F56F8F101A838FD400E02B3E /* Sources */,
+				F56F8F111A838FD400E02B3E /* Frameworks */,
+				F56F8F121A838FD400E02B3E /* Headers */,
+				F56F8F131A838FD400E02B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BifrostController;
+			productName = BifrostController;
+			productReference = F56F8F151A838FD400E02B3E /* BifrostController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F56F8F1E1A838FD500E02B3E /* BifrostControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56F8F321A838FD500E02B3E /* Build configuration list for PBXNativeTarget "BifrostControllerTests" */;
+			buildPhases = (
+				F56F8F1B1A838FD500E02B3E /* Sources */,
+				F56F8F1C1A838FD500E02B3E /* Frameworks */,
+				F56F8F1D1A838FD500E02B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56F8F221A838FD500E02B3E /* PBXTargetDependency */,
+				F56F8F241A838FD500E02B3E /* PBXTargetDependency */,
+			);
+			name = BifrostControllerTests;
+			productName = BifrostControllerTests;
+			productReference = F56F8F1F1A838FD500E02B3E /* BifrostControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F5EEB1211A8265C200B33684 /* StoryboardBridgeController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5EEB1411A8265C200B33684 /* Build configuration list for PBXNativeTarget "StoryboardBridgeController" */;
@@ -139,10 +287,12 @@
 				F5EEB11E1A8265C200B33684 /* Sources */,
 				F5EEB11F1A8265C200B33684 /* Frameworks */,
 				F5EEB1201A8265C200B33684 /* Resources */,
+				F56F8F2D1A838FD500E02B3E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F56F8F2B1A838FD500E02B3E /* PBXTargetDependency */,
 			);
 			name = StoryboardBridgeController;
 			productName = StoryboardBridgeController;
@@ -176,6 +326,13 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Taskworld;
 				TargetAttributes = {
+					F56F8F141A838FD400E02B3E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F56F8F1E1A838FD500E02B3E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F5EEB1211A8265C200B33684;
+					};
 					F5EEB1211A8265C200B33684 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -200,11 +357,27 @@
 			targets = (
 				F5EEB1211A8265C200B33684 /* StoryboardBridgeController */,
 				F5EEB1361A8265C200B33684 /* StoryboardBridgeControllerTests */,
+				F56F8F141A838FD400E02B3E /* BifrostController */,
+				F56F8F1E1A838FD500E02B3E /* BifrostControllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F56F8F131A838FD400E02B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56F8F1D1A838FD500E02B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5EEB1201A8265C200B33684 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,7 +386,7 @@
 				F5EEB1321A8265C200B33684 /* LaunchScreen.xib in Resources */,
 				F5EEB12F1A8265C200B33684 /* Images.xcassets in Resources */,
 				F5E295991A837B3E00E05FE2 /* Second.storyboard in Resources */,
-				F5E295971A837A8500E05FE2 /* First.storyboard in Resources */,
+				F56F8F0F1A838ED900E02B3E /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,12 +400,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F56F8F101A838FD400E02B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56F8F361A83902600E02B3E /* StoryboardBridgeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56F8F1B1A838FD500E02B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56F8F291A838FD500E02B3E /* BifrostControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5EEB11E1A8265C200B33684 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F5EEB12A1A8265C200B33684 /* ViewController.swift in Sources */,
-				F5EEB1481A82667800B33684 /* StoryboardBridgeController.swift in Sources */,
 				F5EEB1281A8265C200B33684 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +436,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F56F8F221A838FD500E02B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56F8F141A838FD400E02B3E /* BifrostController */;
+			targetProxy = F56F8F211A838FD500E02B3E /* PBXContainerItemProxy */;
+		};
+		F56F8F241A838FD500E02B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5EEB1211A8265C200B33684 /* StoryboardBridgeController */;
+			targetProxy = F56F8F231A838FD500E02B3E /* PBXContainerItemProxy */;
+		};
+		F56F8F2B1A838FD500E02B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56F8F141A838FD400E02B3E /* BifrostController */;
+			targetProxy = F56F8F2A1A838FD500E02B3E /* PBXContainerItemProxy */;
+		};
 		F5EEB1391A8265C200B33684 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F5EEB1211A8265C200B33684 /* StoryboardBridgeController */;
@@ -275,6 +478,83 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F56F8F301A838FD500E02B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BifrostController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F56F8F311A838FD500E02B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BifrostController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F56F8F331A838FD500E02B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BifrostControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryboardBridgeController.app/StoryboardBridgeController";
+			};
+			name = Debug;
+		};
+		F56F8F341A838FD500E02B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BifrostControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryboardBridgeController.app/StoryboardBridgeController";
+			};
+			name = Release;
+		};
 		F5EEB13F1A8265C200B33684 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -409,6 +689,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F56F8F2F1A838FD500E02B3E /* Build configuration list for PBXNativeTarget "BifrostController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56F8F301A838FD500E02B3E /* Debug */,
+				F56F8F311A838FD500E02B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F56F8F321A838FD500E02B3E /* Build configuration list for PBXNativeTarget "BifrostControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56F8F331A838FD500E02B3E /* Debug */,
+				F56F8F341A838FD500E02B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F5EEB11D1A8265C200B33684 /* Build configuration list for PBXProject "StoryboardBridgeController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
