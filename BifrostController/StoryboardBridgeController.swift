@@ -8,15 +8,15 @@
 
 import UIKit
 
-class StoryboardBridgeController: UINavigationController {
+public class StoryboardBridgeController: UINavigationController {
     
-    @IBInspectable var storyboardName: String? = nil {
+    @IBInspectable public var storyboardName: String? = nil {
         didSet {
             setNeedReloadViewController()
         }
     }
     
-    @IBInspectable var storyboardID: String? = nil {
+    @IBInspectable public var storyboardID: String? = nil {
         didSet {
             setNeedReloadViewController()
         }
