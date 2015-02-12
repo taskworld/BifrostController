@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F54DA5DE1A8C949900B4DFF5 /* BifrostController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54DA5DD1A8C949900B4DFF5 /* BifrostController.framework */; };
+		F54DA5DF1A8C949900B4DFF5 /* BifrostController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F54DA5DD1A8C949900B4DFF5 /* BifrostController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5D80BF31A83DB5600C14689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D80BF21A83DB5600C14689 /* AppDelegate.swift */; };
 		F5D80BFA1A83DB5600C14689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D80BF81A83DB5600C14689 /* Main.storyboard */; };
 		F5D80BFC1A83DB5600C14689 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D80BFB1A83DB5600C14689 /* Images.xcassets */; };
 		F5D80BFF1A83DB5600C14689 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D80BFD1A83DB5600C14689 /* LaunchScreen.xib */; };
 		F5D80C0B1A83DB5600C14689 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D80C0A1A83DB5600C14689 /* DemoTests.swift */; };
-		F5D80C151A83DCFB00C14689 /* BifrostController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D80C141A83DCFB00C14689 /* BifrostController.framework */; };
 		F5D80C1B1A83DEC900C14689 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D80C1D1A83DEC900C14689 /* First.storyboard */; };
 		F5D80C1E1A83DECE00C14689 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D80C201A83DECE00C14689 /* Second.storyboard */; };
 /* End PBXBuildFile section */
@@ -27,7 +28,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F54DA5E01A8C949A00B4DFF5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F54DA5DF1A8C949900B4DFF5 /* BifrostController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F54DA5DD1A8C949900B4DFF5 /* BifrostController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = BifrostController.framework; path = "/Users/ambaschobsanti/Library/Developer/Xcode/DerivedData/BifrostController-crdohpkpppqeieeupgxivbwoofew/Build/Products/Debug-iphoneos/BifrostController.framework"; sourceTree = "<absolute>"; };
 		F5D80BED1A83DB5600C14689 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D80BF11A83DB5600C14689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5D80BF21A83DB5600C14689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +53,6 @@
 		F5D80C041A83DB5600C14689 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D80C091A83DB5600C14689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5D80C0A1A83DB5600C14689 /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
-		F5D80C141A83DCFB00C14689 /* BifrostController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BifrostController.framework; path = "../../../Library/Developer/Xcode/DerivedData/Demo-fmjxtqppazpbbegjuplfuwhkrjjv/Build/Products/Debug-iphoneos/BifrostController.framework"; sourceTree = "<group>"; };
 		F5D80C1C1A83DEC900C14689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/First.storyboard; sourceTree = "<group>"; };
 		F5D80C1F1A83DECE00C14689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Second.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D80C151A83DCFB00C14689 /* BifrostController.framework in Frameworks */,
+				F54DA5DE1A8C949900B4DFF5 /* BifrostController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +79,7 @@
 		F5D80BE41A83DB5600C14689 = {
 			isa = PBXGroup;
 			children = (
-				F5D80C141A83DCFB00C14689 /* BifrostController.framework */,
+				F54DA5DD1A8C949900B4DFF5 /* BifrostController.framework */,
 				F5D80BEF1A83DB5600C14689 /* Demo */,
 				F5D80C071A83DB5600C14689 /* DemoTests */,
 				F5D80BEE1A83DB5600C14689 /* Products */,
@@ -137,6 +152,7 @@
 				F5D80BE91A83DB5600C14689 /* Sources */,
 				F5D80BEA1A83DB5600C14689 /* Frameworks */,
 				F5D80BEB1A83DB5600C14689 /* Resources */,
+				F54DA5E01A8C949A00B4DFF5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -371,6 +387,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Demo-fmjxtqppazpbbegjuplfuwhkrjjv/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/BifrostController-crdohpkpppqeieeupgxivbwoofew/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -385,6 +402,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Demo-fmjxtqppazpbbegjuplfuwhkrjjv/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/BifrostController-crdohpkpppqeieeupgxivbwoofew/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
